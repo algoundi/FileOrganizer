@@ -35,4 +35,6 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.3")
     implementation("androidx.documentfile:documentfile:1.0.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+implementation("com.google.mlkit:image-labeling:17.0.9")
+implementation("com.google.mlkit:face-detection:16.1.7")
 }
