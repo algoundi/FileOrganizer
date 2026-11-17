@@ -91,5 +91,5 @@ private fun Screen(vm: MainViewModel) {
             Text(if (vm.running) "Organizing…" else "Start Organizing")
         }
     }
-    Button(onClick = { /* هنحط الدالة هنا */ }) { Text("Search by Image") }
+    Button(onClick = { vm.pickImageForSearch() }) { Text("Search by Image") }
 }
