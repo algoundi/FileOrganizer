@@ -23,4 +23,4 @@ jobs:
           tag_name: build-${{ github.run_number }}
           name: File Organizer build ${{ github.run_number }}
           files: FileOrganizer.apk
-    - uses: actions/upload-artifact@v4
+          -uses: actions/upload-artifact@v4
