@@ -63,4 +63,5 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
             running = false
         }
     }
+    fun pickImageForSearch() { running = true; status = "Searching by image..." }
 }
