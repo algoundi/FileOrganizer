@@ -90,5 +90,5 @@ private fun Screen(vm: MainViewModel) {
             modifier = Modifier.fillMaxWidth().height(52.dp)
         ) {
             Text(if (vm.running) "Organizing…" else "Start Organizing")
-        }
+        }Button(onClick = { vm.pickImageForSearch() }, modifier = Modifier.fillMaxWidth().height(52.dp)) { Text("Search by Image") }
 }
