@@ -91,6 +91,4 @@ private fun Screen(vm: MainViewModel) {
         ) {
             Text(if (vm.running) "Organizing…" else "Start Organizing")
         }
-    }
-    Button(onClick = { vm.pickImageForSearch() }) { Text("Search by Image") }
 }
